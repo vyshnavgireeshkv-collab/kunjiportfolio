@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Aptos', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #344957;
+  background: #F7FAFC;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 74% 12%, rgba(217, 240, 237, 0.78), transparent 34%),
+    radial-gradient(ellipse at 12% 36%, rgba(232, 230, 244, 0.54), transparent 40%),
+    linear-gradient(180deg, #F7FAFC 0%, #EAF3F7 48%, #F7FAFC 100%);
+  color: #344957;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+span,
+strong {
+  margin-top: 0;
+}
+
+canvas {
+  display: block;
+}
